@@ -1,0 +1,46 @@
+2020-07-30 21:44:58 INFO  c.c.p.PracticalJavaApplication - Starting PracticalJavaApplication on Hal-Vong’s-MacBook-Pro with PID 2807 (/Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1/build/classes/java/main started by halvong in /Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1)
+2020-07-30 21:44:58 INFO  c.c.p.PracticalJavaApplication - No active profile set, falling back to default profiles: default
+2020-07-30 21:44:59 INFO  c.c.p.PracticalJavaApplication - Started PracticalJavaApplication in 1.167 seconds (JVM running for 1.674)
+2020-07-30 23:10:38 INFO  c.c.p.PracticalJavaApplication - Starting PracticalJavaApplication on Hal-Vong’s-MacBook-Pro with PID 4930 (/Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1/build/classes/java/main started by halvong in /Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1)
+2020-07-30 23:10:38 INFO  c.c.p.PracticalJavaApplication - No active profile set, falling back to default profiles: default
+2020-07-30 23:10:39 INFO  c.c.p.PracticalJavaApplication - Started PracticalJavaApplication in 1.125 seconds (JVM running for 1.756)
+2020-07-30 23:14:05 INFO  c.c.p.rest.controller.CarRestController - The car is com.course.practicaljava.rest.domain.Car@5f3f9d4f
+2020-07-30 23:16:15 INFO  c.c.p.PracticalJavaApplication - Starting PracticalJavaApplication on Hal-Vong’s-MacBook-Pro with PID 4958 (/Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1/build/classes/java/main started by halvong in /Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1)
+2020-07-30 23:16:15 INFO  c.c.p.PracticalJavaApplication - No active profile set, falling back to default profiles: default
+2020-07-30 23:16:16 INFO  c.c.p.PracticalJavaApplication - Started PracticalJavaApplication in 1.005 seconds (JVM running for 1.533)
+2020-07-30 23:16:32 INFO  c.c.p.rest.controller.CarRestController - The car is com.course.practicaljava.rest.domain.Car@3b39dc2c
+2020-07-30 23:19:37 INFO  c.c.p.rest.controller.CarRestController - The car is com.course.practicaljava.rest.domain.Car@491eee9b
+2020-07-30 23:20:28 INFO  c.c.p.PracticalJavaApplication - Starting PracticalJavaApplication on Hal-Vong’s-MacBook-Pro with PID 5155 (/Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1/build/classes/java/main started by halvong in /Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1)
+2020-07-30 23:20:28 INFO  c.c.p.PracticalJavaApplication - No active profile set, falling back to default profiles: default
+2020-07-30 23:20:28 INFO  c.c.p.PracticalJavaApplication - Started PracticalJavaApplication in 0.986 seconds (JVM running for 1.408)
+2020-07-30 23:20:39 INFO  c.c.p.rest.controller.CarRestController - The car is com.course.practicaljava.rest.domain.Car@6c067696
+2020-07-30 23:23:18 INFO  c.c.p.PracticalJavaApplication - Starting PracticalJavaApplication on Hal-Vong’s-MacBook-Pro with PID 5176 (/Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1/build/classes/java/main started by halvong in /Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1)
+2020-07-30 23:23:18 INFO  c.c.p.PracticalJavaApplication - No active profile set, falling back to default profiles: default
+2020-07-30 23:23:19 INFO  c.c.p.PracticalJavaApplication - Started PracticalJavaApplication in 1.196 seconds (JVM running for 2.099)
+2020-07-30 23:23:46 INFO  c.c.p.rest.controller.CarRestController - The car is com.course.practicaljava.rest.domain.Car@40540aed
+2020-07-30 23:26:23 INFO  c.c.p.PracticalJavaApplication - Starting PracticalJavaApplication on Hal-Vong’s-MacBook-Pro with PID 5759 (/Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1/build/classes/java/main started by halvong in /Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1)
+2020-07-30 23:26:23 INFO  c.c.p.PracticalJavaApplication - No active profile set, falling back to default profiles: default
+2020-07-30 23:26:24 INFO  c.c.p.PracticalJavaApplication - Started PracticalJavaApplication in 1.043 seconds (JVM running for 1.576)
+2020-07-30 23:26:28 INFO  c.c.p.rest.controller.CarRestController - The car is com.course.practicaljava.rest.domain.Car@63a65694
+2020-07-30 23:27:41 INFO  c.c.p.PracticalJavaApplication - Starting PracticalJavaApplication on Hal-Vong’s-MacBook-Pro with PID 6079 (/Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1/build/classes/java/main started by halvong in /Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1)
+2020-07-30 23:27:41 INFO  c.c.p.PracticalJavaApplication - No active profile set, falling back to default profiles: default
+2020-07-30 23:27:42 INFO  c.c.p.PracticalJavaApplication - Started PracticalJavaApplication in 1.046 seconds (JVM running for 1.53)
+2020-07-30 23:27:48 INFO  c.c.p.rest.controller.CarRestController - The car is Car [brand=Mitsubishi, color=Blue, type=Sedan]
+2020-07-30 23:28:29 INFO  c.c.p.PracticalJavaApplication - Starting PracticalJavaApplication on Hal-Vong’s-MacBook-Pro with PID 6393 (/Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1/build/classes/java/main started by halvong in /Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1)
+2020-07-30 23:28:29 INFO  c.c.p.PracticalJavaApplication - No active profile set, falling back to default profiles: default
+2020-07-30 23:28:29 INFO  c.c.p.PracticalJavaApplication - Started PracticalJavaApplication in 1.073 seconds (JVM running for 1.548)
+2020-07-30 23:28:34 INFO  c.c.p.rest.controller.CarRestController - The car is Car [brand=Mitsubishi, color=Blue, type=Sedan]
+2020-07-30 23:41:45 INFO  c.c.p.PracticalJavaApplication - Starting PracticalJavaApplication on Hal-Vong’s-MacBook-Pro with PID 6881 (/Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1/build/classes/java/main started by halvong in /Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1)
+2020-07-30 23:41:45 INFO  c.c.p.PracticalJavaApplication - No active profile set, falling back to default profiles: default
+2020-07-30 23:41:46 INFO  c.c.p.PracticalJavaApplication - Started PracticalJavaApplication in 1.184 seconds (JVM running for 1.735)
+2020-07-30 23:41:49 INFO  c.c.p.rest.controller.CarRestController - The car is Car [brand=Mitsubishi, color=Blue, type=Sedan]
+2020-07-30 23:42:01 INFO  c.c.p.rest.controller.CarRestController - The car is Car [brand=Mitsubishi, color=RED, type=Coupe]
+2020-07-30 23:43:18 INFO  c.c.p.PracticalJavaApplication - Starting PracticalJavaApplication on Hal-Vong’s-MacBook-Pro with PID 6890 (/Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1/build/classes/java/main started by halvong in /Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1)
+2020-07-30 23:43:18 INFO  c.c.p.PracticalJavaApplication - No active profile set, falling back to default profiles: default
+2020-07-30 23:43:19 INFO  c.c.p.PracticalJavaApplication - Started PracticalJavaApplication in 1.03 seconds (JVM running for 1.451)
+2020-07-30 23:43:23 INFO  c.c.p.rest.controller.CarRestController - The car is Car [brand=Mitsubishi, color=RED, type=Coupe]
+2020-07-30 23:44:10 INFO  c.c.p.PracticalJavaApplication - Starting PracticalJavaApplication on Hal-Vong’s-MacBook-Pro with PID 6895 (/Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1/build/classes/java/main started by halvong in /Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1)
+2020-07-30 23:44:10 INFO  c.c.p.PracticalJavaApplication - No active profile set, falling back to default profiles: default
+2020-07-30 23:44:11 INFO  c.c.p.PracticalJavaApplication - Started PracticalJavaApplication in 0.973 seconds (JVM running for 1.406)
+2020-07-30 23:44:17 INFO  c.c.p.rest.controller.CarRestController - The car is Car [brand=Mitsubishi, color=RED, type=Coupe]
+2020-07-30 23:44:18 INFO  c.c.p.rest.controller.CarRestController - The car is Car [brand=Mitsubishi, color=RED, type=Coupe]
