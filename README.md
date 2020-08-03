@@ -1,6 +1,5 @@
 Practical Java, SpringBoot ElasticSearch, Udemy video
-7/30/2020, Thurs
+8/02/2020, Sun
 
-https://www.udemy.com/course/practical-java-spring-boot-rest-api-with-elasticsearch/learn/lecture/11877268#overview
-
+https://www.udemy.com/course/practical-java-spring-boot-rest-api-with-elasticsearch/learn/lecture/21389652#overview
 localhost:8080/api/car/v1/random

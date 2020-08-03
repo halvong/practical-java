@@ -1,9 +1,12 @@
 package com.course.practicaljava.rest.service;
 
 import com.course.practicaljava.rest.domain.Car;
+import com.course.practicaljava.util.RandomDateUtil;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 @Service
 public class RandomCarService implements CarService {
@@ -16,9 +19,23 @@ public class RandomCarService implements CarService {
         var randomColor = COLORS.get(random.nextInt(BRANDS.size()));
         var randomType = TYPES.get(random.nextInt(BRANDS.size()));
 
-        var car = new Car(randomBrand, randomColor, randomType);
+        var available = ThreadLocalRandom.current().nextBoolean();
+        var price = ThreadLocalRandom.current().nextInt(5000,12001);
+        var firstReleaseDate = RandomDateUtil.generateRandomLocalDate();
+        int randomCount = ThreadLocalRandom.current().nextInt(ADDITIONAL_FEATURES.size());
+        var additionalFeatures = new ArrayList<String>();
 
-        return car;
+        for (int i = 0; i < randomCount; i++){
+            additionalFeatures.add(ADDITIONAL_FEATURES.get(i));
+        }
+
+        var result = new Car(randomBrand, randomColor, randomType);
+        result.setAvailable(available);
+        result.setPrice(price);
+        result.setFirstReleaseDate(firstReleaseDate);
+        result.setAdditionalFeatures(additionalFeatures);
+
+        return result;
     }
 
 }

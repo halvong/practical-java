@@ -8,6 +8,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.ThreadLocalRandom;
+
 @RestController
 @RequestMapping("/api/car/v1")
 public class CarRestController {
@@ -28,4 +32,15 @@ public class CarRestController {
         return car.toString();
     }
 
+    @GetMapping(path="/random-cars", produces = MediaType.APPLICATION_JSON_VALUE)
+    public List<Car> randomCars() {
+        log.info("Random-cars initiated.");
+        var result = new ArrayList<Car>();
+
+        for(int i = 0; i < ThreadLocalRandom.current().nextInt(1,10); i++) {
+            result.add(carService.generateCar());
+        }
+
+        return result;
+    }
 }
