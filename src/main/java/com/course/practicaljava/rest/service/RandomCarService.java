@@ -29,6 +29,8 @@ public class RandomCarService implements CarService {
             additionalFeatures.add(ADDITIONAL_FEATURES.get(i));
         }
 
+        var fuel = FUELS.get(ThreadLocalRandom.current().nextInt(FUELS.size()));
+
         var result = new Car(randomBrand, randomColor, randomType);
         result.setAvailable(available);
         result.setPrice(price);

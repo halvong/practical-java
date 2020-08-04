@@ -12,6 +12,8 @@ public class Car {
     private int price;
     private String type;
     private List<String> additionalFeatures;
+    private Engine engine;
+    private List<Tire> tires;
 
     public Car() {}
 
@@ -76,6 +78,22 @@ public class Car {
 
     public void setType(String type) {
         this.type = type;
+    }
+
+    public Engine getEngine() {
+        return engine;
+    }
+
+    public void setEngine(Engine engine) {
+        this.engine = engine;
+    }
+
+    public List<Tire> getTires() {
+        return tires;
+    }
+
+    public void setTires(List<Tire> tires) {
+        this.tires = tires;
     }
 
     @Override
