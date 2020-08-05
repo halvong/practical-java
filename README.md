@@ -3,8 +3,8 @@ Practical Java, SpringBoot ElasticSearch, Udemy video
 
 
 #session
-6:47
-https://www.udemy.com/course/practical-java-spring-boot-rest-api-with-elasticsearch/learn/lecture/21389652#overview
+13:38
+https://www.udemy.com/course/practical-java-spring-boot-rest-api-with-elasticsearch/learn/lecture/17227784#overview
 
 #url
 localhost:8080/api/car/v1/random

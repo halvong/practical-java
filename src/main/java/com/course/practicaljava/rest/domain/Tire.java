@@ -1,7 +1,11 @@
 package com.course.practicaljava.rest.domain;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Tire {
     private String manufaturer;
+
+    @JsonProperty(value="ddiameter")
     private int size;
     private int price;
 

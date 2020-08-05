@@ -1,19 +1,32 @@
 package com.course.practicaljava.rest.domain;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.databind.PropertyNamingStrategy;
+import com.fasterxml.jackson.databind.annotation.JsonNaming;
+
 import java.time.LocalDate;
 import java.util.List;
 
+@JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 public class Car {
 
     private boolean available;
     private String brand;
     private String color;
+
+    @JsonFormat(pattern = "MM/dd/yyyy", timezone = "America/Los_Angeles")
     private LocalDate firstReleaseDate;
     private int price;
     private String type;
+
+    @JsonInclude(value = JsonInclude.Include.NON_EMPTY)
     private List<String> additionalFeatures;
     private Engine engine;
     private List<Tire> tires;
+
+    @JsonInclude(value = JsonInclude.Include.NON_EMPTY)
+    private String secretFeature;
 
     public Car() {}
 
@@ -22,6 +35,14 @@ public class Car {
         this.brand = brand;
         this.color = color;
         this.type = type;
+    }
+
+    public String getSecretFeature() {
+        return secretFeature;
+    }
+
+    public void setSecretFeature(String secretFeature) {
+        this.secretFeature = secretFeature;
     }
 
     public List<String> getAdditionalFeatures() {
@@ -98,7 +119,18 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car [brand=" + brand + ", color=" + color + ", type=" + type + "]";
+        return "Car{" +
+                "available=" + available +
+                ", brand='" + brand + '\'' +
+                ", color='" + color + '\'' +
+                ", firstReleaseDate=" + firstReleaseDate +
+                ", price=" + price +
+                ", type='" + type + '\'' +
+                ", additionalFeatures=" + additionalFeatures +
+                ", engine=" + engine +
+                ", tires=" + tires +
+                ", secretFeature='" + secretFeature + '\'' +
+                '}';
     }
 
 }
