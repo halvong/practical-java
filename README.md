@@ -1,5 +1,5 @@
 Practical Java, SpringBoot ElasticSearch, Udemy video
-8/04/2020, Tues
+8/05/2020, Wed
 
 
 #session
@@ -8,3 +8,7 @@ https://www.udemy.com/course/practical-java-spring-boot-rest-api-with-elasticsea
 
 #url
 localhost:8080/api/car/v1/random
+
+#elasticsearch
+starts in terminal: elastisearch
+localhost:9200

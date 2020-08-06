@@ -1,5 +1,6 @@
 package com.course.practicaljava.rest.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Tire {
@@ -7,6 +8,8 @@ public class Tire {
 
     @JsonProperty(value="ddiameter")
     private int size;
+
+    @JsonIgnore
     private int price;
 
     public Tire() {}
