@@ -41,3 +41,9 @@
 2020-08-05 22:18:49 INFO  c.c.p.PracticalJavaApplication - Starting PracticalJavaApplication on Hal-Vong’s-MacBook-Pro with PID 4947 (/Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1/build/classes/java/main started by halvong in /Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1)
 2020-08-05 22:18:49 INFO  c.c.p.PracticalJavaApplication - No active profile set, falling back to default profiles: default
 2020-08-05 22:18:50 INFO  c.c.p.PracticalJavaApplication - Started PracticalJavaApplication in 1.571 seconds (JVM running for 2.103)
+2020-08-05 22:54:12 INFO  c.c.p.PracticalJavaApplication - Starting PracticalJavaApplication on Hal-Vong’s-MacBook-Pro with PID 6977 (/Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1/build/classes/java/main started by halvong in /Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1)
+2020-08-05 22:54:12 INFO  c.c.p.PracticalJavaApplication - No active profile set, falling back to default profiles: default
+2020-08-05 22:54:14 INFO  c.c.p.PracticalJavaApplication - Started PracticalJavaApplication in 2.229 seconds (JVM running for 2.845)
+2020-08-05 22:58:20 INFO  c.c.p.PracticalJavaApplication - Starting PracticalJavaApplication on Hal-Vong’s-MacBook-Pro with PID 7066 (/Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1/build/classes/java/main started by halvong in /Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1)
+2020-08-05 22:58:20 INFO  c.c.p.PracticalJavaApplication - No active profile set, falling back to default profiles: default
+2020-08-05 22:58:22 INFO  c.c.p.PracticalJavaApplication - Started PracticalJavaApplication in 2.092 seconds (JVM running for 2.636)
