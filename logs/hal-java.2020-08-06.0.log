@@ -1,0 +1,8 @@
+2020-08-06 21:51:27 INFO  c.c.p.PracticalJavaApplication - Starting PracticalJavaApplication on Hal-Vong’s-MacBook-Pro with PID 3494 (/Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1/build/classes/java/main started by halvong in /Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1)
+2020-08-06 21:51:27 INFO  c.c.p.PracticalJavaApplication - No active profile set, falling back to default profiles: default
+2020-08-06 21:51:29 INFO  c.c.p.PracticalJavaApplication - Started PracticalJavaApplication in 2.668 seconds (JVM running for 3.647)
+2020-08-06 22:25:08 INFO  c.c.p.PracticalJavaApplication - Starting PracticalJavaApplication on Hal-Vong’s-MacBook-Pro with PID 4464 (/Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1/build/classes/java/main started by halvong in /Users/halvong/Documents/IdeaProjects/elasticsearch/practical-java-v0.1)
+2020-08-06 22:25:08 INFO  c.c.p.PracticalJavaApplication - No active profile set, falling back to default profiles: default
+2020-08-06 22:25:11 INFO  c.c.p.PracticalJavaApplication - Started PracticalJavaApplication in 3.257 seconds (JVM running for 3.769)
+2020-08-06 22:25:11 INFO  c.c.p.rest.common.CarElasticDatasource - End delete with response {"acknowledged":true}
+2020-08-06 22:25:14 INFO  c.c.p.rest.common.CarElasticDatasource - Saved 10000 cars

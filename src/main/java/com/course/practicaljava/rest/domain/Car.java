@@ -4,19 +4,29 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.elasticsearch.annotations.DateFormat;
+import org.springframework.data.elasticsearch.annotations.Document;
+import org.springframework.data.elasticsearch.annotations.Field;
+import org.springframework.data.elasticsearch.annotations.FieldType;
 
 import java.time.LocalDate;
 import java.util.List;
 
+@Document(indexName = "practical-java")
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 public class Car {
+    @Id
+    private String id;
 
     private boolean available;
     private String brand;
     private String color;
 
-    @JsonFormat(pattern = "MM/dd/yyyy", timezone = "America/Los_Angeles")
+    @Field(type = FieldType.Date, format = DateFormat.date)
+    @JsonFormat(pattern = "yyyy-MM-dd", timezone = "America/Los_Angeles")
     private LocalDate firstReleaseDate;
+
     private int price;
     private String type;
 
@@ -35,6 +45,14 @@ public class Car {
         this.brand = brand;
         this.color = color;
         this.type = type;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getSecretFeature() {
